@@ -118,7 +118,7 @@ const GameContainer = () => {
           </button>
         )}
       </section>
-      <div className="cardContainer  grid sm:grid-cols-2 md:sm:grid-cols-3 lg:grid-cols-4 gap-2 justify-center items-center">
+      <div className="cardContainer  grid max-sm:grid-cols-2 sm:grid-cols-2 md:sm:grid-cols-3 lg:grid-cols-4 gap-2 justify-center items-center">
         {cards &&
           cards.map((card) => (
             <div key={card.id}>
