@@ -1,0 +1,40 @@
+{
+  "nftCollection": [
+    {
+      "nftId": "azuki",
+      "nftName": "Azuki",
+      "hashes": ["1948", "4017", "4385", "7103", "7481", "9669"],
+      "extension": "jpg"
+    },
+    {
+      "nftId": "bayc",
+      "nftName": "Bored Ape Yatch Club",
+      "hashes": ["183", "4158", "5063", "5585", "8585", "9393"],
+      "extension": "jpg"
+    },
+    {
+      "nftId": "clonex",
+      "nftName": "CloneX",
+      "hashes": ["4583", "6811", "6979", "9751", "17920", "19586"],
+      "extension": "jpg"
+    },
+    {
+      "nftId": "hape",
+      "nftName": "Hape Prime",
+      "hashes": ["1409", "3312", "3561", "3761", "4660", "5165"],
+      "extension": "jpg"
+    },
+    {
+      "nftId": "invfri",
+      "nftName": "Invisible Friends",
+      "hashes": ["275", "749", "1274", "3226", "4819", "4922"],
+      "extension": "gif"
+    },
+    {
+      "nftId": "mayc",
+      "nftName": "Mutant Ape Yacht Club",
+      "hashes": ["1796", "4318", "4636", "11318", "15352", "30003"],
+      "extension": "jpg"
+    }
+  ]
+}
