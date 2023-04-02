@@ -109,12 +109,20 @@ const GameContainer = () => {
             </select>
           </label>
         </div>
-        {selectedNft != "0" && (
+        {selectedNft != "0" && turns == 0 && (
           <button
             onClick={arrangeCards}
-            className="flex mx-auto text-white bg-indigo-500 border-0 mt-2 mb-2 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg "
+            className="flex mx-14 justify-center bg-indigo-500 hover:bg-indigo-400 text-white font-semibold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded"
           >
             Start Game
+          </button>
+        )}
+        {turns != 0 && (
+          <button
+            onClick={arrangeCards}
+            className="flex mx-14 justify-center bg-blue-500 hover:bg-blue-400 text-white font-semibold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+          >
+            Restart
           </button>
         )}
       </section>
@@ -137,7 +145,7 @@ const GameContainer = () => {
           ))}
       </div>
       {cards.length > 0 && (
-        <div className="turns flex justify-center text-lg mt-10 mb-10">
+        <div className="turns flex justify-center text-lg mt-6 ">
           <div className="mr-1 text-3xl">Turns: </div>
           <h2 className="text-3xl">{turns}</h2>
         </div>
